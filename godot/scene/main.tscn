@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Dialogue" type="Label" parent="."]
+rect_min_size = Vector2(400, 200)
+rect_position = Vector2(50, 50)
+text = "Bienvenue dans Ghenolife — Prototype Android. Appuyez sur 'Parler' pour tester le LLM mock."
+
+[node name="AskButton" type="Button" parent="."]
+text = "Parler"
+rect_position = Vector2(50, 260)
+rect_size = Vector2(200, 40)
+
+[node name="ScriptHolder" type="Node" parent="."]
+

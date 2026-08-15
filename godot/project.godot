@@ -1,0 +1,6 @@
+[application]
+config/name="Ghenolife Prototype"
+run/main_scene="res://scene/main.tscn"
+
+[rendering]
+quality/driver/driver_name="GLES2"
